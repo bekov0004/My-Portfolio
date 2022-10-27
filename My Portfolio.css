@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+.contener{
+    display: flex;
+}
+.left{
+    width: 22%;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+.right{
+    width: 78%;
+    height: 100vh;
+    overflow: auto;
+    background-color: #f1f1f1;
+}
+.mainleft{
+    padding: 22.5px 0px 0px 16px ;
+    
+}
+.portfolioimg{
+    border-radius: 5px;
+}
+.portfolioh4{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.templateP{
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.PortfoliAbboutContact a{
+   text-decoration: none;
+   color: black;
+}
+.PortfoliAbboutContact p{
+     padding: 12px 0px;
+}
+.iconportfolio a {
+    color: #009688;
+}
+.iconportfolio a:hover {
+    color: black;
+}
+
+.PortfoliAbboutContact p:hover{
+    background-color: gray;
+    color: black;
+}
+/* ------------iconci--------------------------- */
+.iconci{
+    margin: 16px 0px;
+    font-size: 18px;
+}
+/* ------------------right-------------------- */
+.right{
+    display: flex;
+    justify-content: center;
+}
+
+.mainright{
+   width: 95%;
+}
+/* ---------------MyPortfolio--------------- */
+.myh1{
+    font-size: 36px;
+    margin: 10px 0px;
+}
+/* ----------------button---------------------- */
+.Filter{
+    margin: 16px 0px;
+    padding: 16px 0px;
+    border-bottom: 6px solid gray;
+    border-radius: 4px;
+}
+.butonpeding
+{
+    padding: 8px 16px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+}
+.all{
+    background-color: black;
+    color: white;
+}
+.all:hover{
+    color:black;
+    background-color: #aca6a6;
+}
+.des:hover{
+    background-color: #aca6a6;
+}
+
+
+
+/* -----------------Lorem Ipsum------------------------ */
+
+.Loremimages1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    margin-top: 20px;
+    width: 31%;
+}
+.top img{
+    width: 100%;
+}
+.booton h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 10px 0px;
+}
+.booton{
+    background-color: white;
+}
+.CEO{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    color: gray;
+
+}
+.eget
+{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+/* -------------------------------1 2 3 4 ---------------------------- */
+
+.mininaw ul{
+    display: flex;
+    justify-content: center;
+    list-style-type:none; 
+    color: black;
+    padding: 32px 0px;
+}
+.mininaw
+{
+    border-bottom: 0.5px solid rgb(223, 222, 222);
+}
+ul li{
+    padding: 8px 16px;
+}
+.but1
+{
+    background-color: black;
+    color: white;
+}
+.but1:hover
+{
+    background-color: rgb(179, 168, 168);
+    color:black;
+}
+.fff:hover
+{
+    background-color: black;
+    color: white;
+}
+/* --------------------------dvaimg----------------------------- */
+.dvaimg{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+/* ----------------------------Just me----------------------- */
+
+.JustH41{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#Imreally
+{
+    text-align: center;
+}
+
+.p95{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+.p95 h1{
+    width: 95%;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 64, 64);
+}
+
+
+.p85{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+.p85 h1{
+    width: 85%;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 64, 64);
+}
+
+.p80{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+.p80 h1{
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 64, 64);
+}
+.but button{
+   margin: 16px 0px;
+   padding: 12px 24px;
+   background-color:rgb(66, 64, 64);
+   color: white;
+   border: none;
+}
+.but button:hover{
+    color: black;
+    background-color: gray;
+}
+/* --------------------------------------------------------- */
+.BasiPro
+{
+    display: flex;
+    justify-content: center;
+}
+.left2
+{
+    width: 48%;
+    text-align: center;
+    padding-right:8px;
+}
+.padfont
+{
+    padding: 32px 16px;
+    font-size: 24px;
+}
+.colorleft{
+    color: white;
+    background-color: #616161;
+}
+.right2{
+    width: 48%;
+    text-align: center;
+    padding-left: 8px;
+}
+.colorright{
+    background-color: #f44336;
+    color: white;
+}
+
+.beckcolr
+{
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1;
+}
+.size
+{
+    font-size: 16px;
+    padding: 16px;
+}
+.summa{
+    background-color: #f1f1f1;
+    font-size: 30px; 
+}
+.buton button
+{
+    border: none;
+    padding: 12px 24px;
+    background-color: rgb(8, 111, 62);
+    color: white;
+}
+.buton button:hover
+{
+    background-color: black;
+
+}
+.buton{
+    background-color: #f1f1f1;
+    padding: 12px 24px;
+}
+.lisumma h1
+{
+    padding: 12px 0;
+
+}
+/* ---------------------------------- */
+.butonleft button
+{
+    border: none;
+    padding: 12px 24px;
+    background-color:rgb(8, 111, 62);
+    color: black;
+}
+.butonleft button:hover
+{
+    background-color: black;
+       color: white;
+}
+
+.butonleft{
+    background-color: #f1f1f1;
+    padding: 12px 24px;
+}
+.colorcentr{
+  background-color: rgb(8, 111, 62);
+}
+.left2 ul, .right2 ul{
+   list-style-type:none ;
+}
